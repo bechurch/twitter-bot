@@ -42,7 +42,7 @@ const GenerateMessage = name => {
   const first_name = (name || "").split(" ")[0]
   const d = new Date();
   const dayName = days[d.getDay()];
-  return `Hey ${first_name} 👋 Just wanted to reach out and say thanks for the follow!\n\nI can't say for certain why you followed me but if you ever want to chat about anything remote work, development or travel related I'm always free for a DM.\n\nAnyway have an awesome ${dayName}! 😊😊 `;
+  return `Hey ${first_name} 👋 Just wanted to reach out and say thanks for the follow!\n\nI can't say for certain why you followed me but if you ever want to chat about anything in the realm of programming, software development or remote work I'm always free for a DM.\n\nAnyway have an awesome ${dayName}! 😊😊 `;
 };
 
 module.exports = AutoDM;
